@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.free{
+    border: 2px solid black;
+    padding: 20px;
+    width: 270px;
+    height: 400px;
+}
+.basic{
+    border: 2px solid black;
+    padding: 20px;
+    width: 270px;
+    height: 400px;
+}
+.premium{
+    border: 2px solid green;
+    padding: 20px;
+    width: 270px;
+    height: 400px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    margin-right: 50px;
+}
+.plan-features-free{
+    margin-bottom: 110px;
+    
+}
+.plan-features-basic{
+    margin-bottom: 90px;
+}
+.plan-features-premium{
+    margin-bottom: 90px;
+}
+.button{
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: lightblue;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.button:hover{
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(118, 222, 254);
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    background-color: plum;
+    color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-family: fantasy;
+    font-size: x-large;
+
+}
+.plan-price{
+    display: flex;
+    justify-content: center;
+    color: lightslategray;
+    margin-bottom: 50px;
+    
+}
+.plan-price span{
+    
+    font-family:'Lucida Sans';
+    color: black;
+    font-size: x-large;
+    text-decoration: underline solid peachpuff;
+}
+@media (max-width: 1250px) {
+    .container{
+      flex-direction: column;
+    }
+  }
+
